@@ -29,7 +29,6 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
 const Navbar = () => {
   const {
     setActiveMenu,
-    isClicked,
     handleClick,
     screenSize,
     setScreenSize,
@@ -103,12 +102,6 @@ const Navbar = () => {
             <MdKeyboardArrowDown className="text-gray-400 text-14" />
           </div>
         </TooltipComponent>
-
-        {/* Render the component based on which button is clicked */}
-        {isClicked.cart && <Cart />}
-        {isClicked.chat && <Chat />}
-        {isClicked.notification && <Notification />}
-        {isClicked.userProfile && <UserProfile />}
       </div>
       {/* Right nav ends  */}
     </div>
