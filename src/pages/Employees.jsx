@@ -13,7 +13,7 @@ import { Header } from "../components";
 
 const Employees = () => {
   return (
-    <div className="m-2 md:m-10 p-2 md:p-10 border-none rounded-3xl bg-white ">
+    <div className="m-2 mt-24 md:m-10 p-2 md:p-10 border-none rounded-3xl bg-white">
       <Header category="Page" title="Employees" />
       <GridComponent
         id="empcomp"
@@ -22,10 +22,15 @@ const Employees = () => {
         allowSorting
         toolbar={["Search"]}
         width="auto"
+        className="dark:bg-secondary-dark-bg"
       >
-        <ColumnsDirective>
+        <ColumnsDirective className="dark:bg-secondary-dark-bg">
           {employeesGrid.map((item, index) => (
-            <ColumnDirective key={index} {...item} />
+            <ColumnDirective
+              key={index}
+              {...item}
+              className="dark:bg-secondary-dark-bg"
+            />
           ))}
         </ColumnsDirective>
         <Inject services={[Page, Search, Toolbar]} />

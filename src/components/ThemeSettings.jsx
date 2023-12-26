@@ -72,7 +72,7 @@ const ThemeSettings = () => {
                     type="button"
                     className="h-10 w-10 rounded-full cursor-pointer"
                     style={{ backgroundColor: item.color }}
-                    onClick={() => setColor(item.color)}
+                    onClick={() => setColor(item.color, item.hoverColor)}
                   >
                     <BsCheck
                       // showing the tick based on which theme is active

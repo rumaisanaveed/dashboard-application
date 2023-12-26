@@ -17,11 +17,12 @@ export const ContextProvider = ({ children }) => {
   // to handle navbar at diff screens
   const [screenSize, setScreenSize] = useState(undefined);
   // to toggle color of the theme
-  const [currentColor, setCurrentColor] = useState("#03C9D7");
+  const [currentColor, setCurrentColor] = useState("#DB5959");
   // to toggle between dark and light dark
   const [currentMode, setCurrentMode] = useState("Light");
   // to handle the theme cancel button
   const [themeSettings, setThemeSettings] = useState(false);
+  const [currentHoverColor, setCurrentHoverColor] = useState("#F26666");
 
   const setMode = (e) => {
     setCurrentMode(e.target.value);
@@ -30,9 +31,11 @@ export const ContextProvider = ({ children }) => {
     setThemeSettings(false);
   };
 
-  const setColor = (color) => {
+  const setColor = (color, hoverColor) => {
     setCurrentColor(color);
     localStorage.setItem("colorMode", color);
+    setCurrentHoverColor(hoverColor);
+    localStorage.setItem("colorHoverMode", hoverColor);
     // to automatically close the theme bar after changing the theme color
     setThemeSettings(false);
   };
@@ -58,6 +61,8 @@ export const ContextProvider = ({ children }) => {
         setThemeSettings,
         setMode,
         setColor,
+        currentHoverColor,
+        setCurrentHoverColor,
       }}
     >
       {children}

@@ -16,8 +16,8 @@ import { Header } from "../components";
 
 const Customers = () => {
   return (
-    <div className="m-2 md:m-10 p-2 md:p-10 border-none rounded-3xl bg-white ">
-      <Header category="Page" title="Employees" />
+    <div className="m-2 mt-24 md:m-10 p-2 md:p-10 border-none rounded-3xl bg-white ">
+      <Header category="Page" title="Customers" />
       <GridComponent
         dataSource={customersData}
         allowPaging
