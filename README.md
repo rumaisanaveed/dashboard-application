@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+FEATURES
+1 - Theming
+The app has different theme colors which you can select as per you choice
+2 - Light & dark theme
+You can also toggle between the light and dark theme
+3 - Pages
+3.1 - Ecommerce
+This app shows some fake data like the total product, and orders etc.
+3.2 - Orders
+This page also shows some sort of orders data and you can sort the data
+by different titles like customer name and so on.
+3.3 - Employees
+This page shows data related to the customers and you can sort the data
+and can also search the customer detail by typing the name of customer.
+3.4 - Customers
+This page shows data related to the employees and you can sort the data
+by different means.
+3.5 - Calendar
+You can add some special events in the calendar as per your choice and
+can customize the calendar.
+3.6 - Kanban
+It has a Kanban board in which you can drag and drop the tasks and keep them
+according to your choice.
+3.7 - Editor
+This text editor has the features which a normal text editor has like formatting,
+highlighting and so on.
+3.8 - Color picker
+It has a pen which can pick the color of your choice through the color theme given
+above it.
+3.9 - Charts
+These two pages show the charts and bars with real appealing effects.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TECH STACK 1. Tailwind CSS 2. React js 3. Syncfusion
 
-## Available Scripts
+How to run the app after cloning it ?
+Terminal -> npm start
 
-In the project directory, you can run:
+How the code is implemented?
 
-### `npm start`
+1. This app is developed by using syncfusion which is a components library with all the functionalities described above.
+2. The state management is done by context api.
+3. The fake data is used for the app.
+4. For icons, I've used the react-icons library.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Snapshot of the app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Note : Clone the repo for better understanding the project and don't forget to give this repo a star!!!
