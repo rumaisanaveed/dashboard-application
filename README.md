@@ -1,47 +1,99 @@
-FEATURES
-1 - Theming
-The app has different theme colors which you can select as per you choice
-2 - Light & dark theme
-You can also toggle between the light and dark theme
-3 - Pages
-3.1 - Ecommerce
-This app shows some fake data like the total product, and orders etc.
-3.2 - Orders
-This page also shows some sort of orders data and you can sort the data
-by different titles like customer name and so on.
-3.3 - Employees
-This page shows data related to the customers and you can sort the data
-and can also search the customer detail by typing the name of customer.
-3.4 - Customers
-This page shows data related to the employees and you can sort the data
-by different means.
-3.5 - Calendar
-You can add some special events in the calendar as per your choice and
-can customize the calendar.
-3.6 - Kanban
-It has a Kanban board in which you can drag and drop the tasks and keep them
-according to your choice.
-3.7 - Editor
-This text editor has the features which a normal text editor has like formatting,
-highlighting and so on.
-3.8 - Color picker
-It has a pen which can pick the color of your choice through the color theme given
-above it.
-3.9 - Charts
-These two pages show the charts and bars with real appealing effects.
+# 🎨 Dashboard Application 
 
-TECH STACK 1. Tailwind CSS 2. React js 3. Syncfusion
+## 📝 Introduction  
+This app is a multi-page project that incorporates various functionalities such as data visualization, theming, a Kanban board, and more. It’s designed to provide an interactive and feature-rich user experience.  
 
-How to run the app after cloning it ?
-Terminal -> npm start
+## 🛠️ Tech Stack  
+- **Tailwind CSS**: For creating modern and responsive UI designs.  
+- **React.js**: To build the dynamic and interactive user interface.  
+- **Syncfusion**: A robust component library that powers the features of this app.  
 
-How the code is implemented?
+---
 
-1. This app is developed by using syncfusion which is a components library with all the functionalities described above.
-2. The state management is done by context api.
-3. The fake data is used for the app.
-4. For icons, I've used the react-icons library.
+## ✨ Features  
 
-Snapshot of the app
+### 🎨 Theming  
+1. **Theme Colors**:  
+   - Choose from multiple theme colors to customize the app as per your preference.  
 
-Note : Clone the repo for better understanding the project and don't forget to give this repo a star!!!
+2. **Light & Dark Mode**:  
+   - Effortlessly toggle between light and dark themes for a comfortable viewing experience.  
+
+### 📄 Pages  
+
+#### 🛒 Ecommerce  
+- Displays fake data like the products, orders, and more.  
+
+#### 📦 Orders  
+- Sort orders data by various titles such as customer names.  
+
+#### 👥 Employees  
+- View data related to employees.  
+- Search for employee details by typing their name.  
+
+#### 🧑‍🤝‍🧑 Customers  
+- Displays customer data with sorting options.  
+
+#### 📅 Calendar  
+- Add, edit, and customize events in the calendar.  
+
+#### 📋 Kanban Board  
+- Drag and drop tasks to organize them as per your needs.  
+
+#### 📝 Editor  
+- A fully-functional text editor with features like formatting, highlighting, and more.  
+
+#### 🎨 Color Picker  
+- Use the pen tool to pick and apply your favorite color from the theme palette.  
+
+#### 📊 Charts  
+- View visually appealing charts and bars with smooth effects.  
+
+---
+
+## 🚀 Running the App  
+
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/rumaisanaveed/dashboard-application.git  
+   ```  
+2. Navigate to the project directory:  
+   ```bash  
+   cd multi-page-app  
+   ```  
+3. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
+4. Start the development server:  
+   ```bash  
+   npm start  
+   ```  
+
+---
+
+## 📚 How the Code is Implemented  
+
+1. **Syncfusion Library**:  
+   - Utilized Syncfusion for implementing all the functionalities described above.  
+
+2. **State Management**:  
+   - Managed using React’s Context API for a smooth and centralized state handling.  
+
+3. **Fake Data**:  
+   - Used for populating the app's pages for demonstration purposes.  
+
+4. **React Icons**:  
+   - Used for intuitive and visually appealing icons.  
+
+---
+
+## 📸 Snapshot of the App  
+
+![color-picker](https://github.com/user-attachments/assets/40c66326-afc3-406f-b2e9-62add632c21b)
+![editor](https://github.com/user-attachments/assets/b747e977-c18c-4f12-b81b-4363ef474151)
+![dashboard](https://github.com/user-attachments/assets/f6d39025-8838-4248-8747-f8ccd9482cbf)
+
+---
+
+⭐ **Note**: Clone this repository to explore the project further, and don't forget to give this repo a star!  
